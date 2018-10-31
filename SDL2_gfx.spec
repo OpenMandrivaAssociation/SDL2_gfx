@@ -10,7 +10,7 @@
 Summary:    SDL2 graphics drawing primitives
 Name:       sdl2_gfx
 Version:    1.0.4
-Release:    1
+Release:    2
 License:    ZLib
 Group:      System/Libraries
 URL:        http://www.ferzkopp.net/joomla/content/view/19/14/
