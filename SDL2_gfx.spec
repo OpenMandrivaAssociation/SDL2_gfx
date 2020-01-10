@@ -61,7 +61,7 @@ This package contains the documentation for the %{up_name} library.
 
 %prep
 %setup -qn %{up_name}-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 #autoreconf -vfi
