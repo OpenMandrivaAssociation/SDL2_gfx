@@ -15,6 +15,11 @@ License:    ZLib
 Group:      System/Libraries
 URL:        https://www.ferzkopp.net/joomla/content/view/19/14/
 Source0:    http://www.ferzkopp.net/Software/%{up_name}/%{up_name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(sdl2)
 
 %description
